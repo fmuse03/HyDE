@@ -41,12 +41,9 @@ O|${HOME}/.local/state/hyde|hyprland.conf|hyprland
  Hyde core files -- uwsm 
 S|${HOME}/.config/uwsm|env env-hyprland env.d env-hyprland.d|systemd hyprland uwsm
 
- Hyde core files -- xdg-terminal-exec 
-O|${HOME}/.config|xdg-terminals.list|xdg-utils
-
 O|${HOME}/.config/hypr|hyprland.conf|hyprland
 S|${HOME}/.local/share|hypr|hyprland
-O|${HOME}/.local/bin|hyde-shell hydectl|hyprland
+S|${HOME}/.local|bin|hyprland
 S|${HOME}/.config|gtk-3.0|nwg-look
 S|${HOME}/.config|nwg-look|nwg-look
 S|${HOME}/.config|xsettingsd|nwg-look
@@ -157,10 +154,12 @@ S|${HOME}/.config|helix|helix
  Paru 
 O|${HOME}/.config/paru|paru.conf|paru
 
- xdg-desktop-portal 
+ xdg 
 O|${HOME}/.config/xdg-desktop-portal|portals.conf|xdg-desktop-portal-termfilechooser-hunkyburrito-git
 O|${HOME}/.config/xdg-desktop-portal-termfilechooser|config|xdg-desktop-portal-termfilechooser-hunkyburrito-git
+O|${HOME}/.config|xdg-terminals.list|xdg-utils
 O|${HOME}/.config|mimeapps.list|xdg-desktop-portal
+S|${HOME}/.local/share|applications|xdg-utils
 
  Yazi 
 S|${HOME}/.config|yazi|yazi
