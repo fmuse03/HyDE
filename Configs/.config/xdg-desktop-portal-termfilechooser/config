@@ -7,5 +7,5 @@ default_dir=$HOME
 ; env=TERMCMD=kitty
 
 ; Mode must be one of 'suggested', 'default', or 'last'.
-open_mode=suggested
-save_mode=suggested
+open_mode=last
+save_mode=last
