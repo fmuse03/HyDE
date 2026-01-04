@@ -6,7 +6,7 @@ desc = "Open $SHELL here"
 
 [[mgr.prepend_keymap]]
 on   = "<C-n>"
-run  = 'shell -- dragon-drop -x -i -T "$0"'
+run  = 'shell -- dragon-drop -T -a -i -x %s'
 desc = 'Drag & Drop'
 
 [[mgr.prepend_keymap]]
