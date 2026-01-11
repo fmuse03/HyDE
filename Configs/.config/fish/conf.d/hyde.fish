@@ -77,8 +77,6 @@ if test -z "$HYPRLAND_CONFIG"
 set -gx HYPRLAND_CONFIG "$XDG_DATA_HOME/hypr/hyprland.conf"
 end
 
-fish_add_path $HOME/.local/bin:$PATH
-
 
 if type -q starship
 starship init fish | source

@@ -1,4 +1,5 @@
 # --------------------------------------------------- // System
+nix                                                    # package manager
 uwsm                                                   # A standalone Wayland session manager
 pipewire                                               # audio/video server
 pipewire-alsa                                          # pipewire alsa client

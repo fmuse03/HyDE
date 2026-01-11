@@ -10,9 +10,6 @@
 # Hyde's Shell Environment Initialization Script
 # If users used UWSM, uwsm will override any variables set anywhere in your shell configurations
 
-# Basic PATH prepending (user local bin)
-PATH="$HOME/.local/bin:$PATH"
-
 # XDG Base Directory Specification variables with defaults
 XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
