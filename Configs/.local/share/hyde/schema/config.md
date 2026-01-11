@@ -140,7 +140,7 @@ Hyprland start configuration.
 | Key | Description | Default |
 | --- | ----------- | ------- |
 | apptray_bluetooth | Bluetooth applet. | blueman-applet |
-| auth_dialogue | Authentication dialogue. | polkitkdeauth.sh |
+| auth_dialogue | Authentication dialogue. | polkit.sh |
 | bar | Bar. | hyde-shell waybar --watch |
 | battery_notify | Battery notification script. | batterynotify.sh |
 | dbus_share_picker | DBus share picker. | dbus-update-activation-environment --systemd --all |

@@ -1052,7 +1052,7 @@
                     "type": "string"
                 },
                 "auth_dialogue": {
-                    "default": "polkitkdeauth.sh",
+                    "default": "polkit.sh",
                     "description": "Authentication dialogue.",
                     "type": "string"
                 },

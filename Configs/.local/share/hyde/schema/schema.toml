@@ -933,7 +933,7 @@ type      = "object"
     type        = "string"
 
 [properties.hyprland-start.properties.auth_dialogue]
-    default     = "polkitkdeauth.sh"
+    default     = "polkit.sh"
     description = "Authentication dialogue."
     type        = "string"
 

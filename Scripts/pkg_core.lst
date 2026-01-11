@@ -39,7 +39,7 @@ wlrctl-git
 wl-kbptr
 
 # --------------------------------------------------- // Dependencies
-polkit-gnome                                           # authentication agent
+hyprpolkitagent                                        # authentication agent
 xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
 xdg-desktop-portal-gtk                                 # file picker and dbus  integration
 xdg-desktop-portal-termfilechooser-hunkyburrito-git
