@@ -33,6 +33,7 @@ O|${HOME}/.config/hyde|config.toml|hyprland
 P|${HOME}/.config/hypr|pyprland.toml shaders.conf workflows.conf animations.conf|hyprland
 O|${HOME}/.config/hypr|keybindings.conf userprefs.conf monitors.conf windowrules.conf|hyprland
 O|${HOME}/.config/hypr|nvidia.conf|hyprland nvidia-utils
+O|${HOME}/.config/hypr|vulkan.conf|hyprland vulkan-radeon
 O|${HOME}/.config/hypr|xdph.conf|hyprland xdg-desktop-portal-hyprland
 O|${HOME}/.config/hypr/themes|theme.conf wallbash.conf colors.conf|hyprland
 S|${HOME}/.config/systemd|user|systemd
