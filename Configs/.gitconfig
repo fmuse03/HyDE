@@ -81,11 +81,11 @@
 [credential]
 	helper = /usr/lib/git-core/git-credential-libsecret
 [include]
-	path = "~/Projects/soloer/.gitconfig"
+	path = "~/dev/muse/.gitconfig"
 [includeIf "gitdir:~/.vscode/extensions/"]
-	path = ~/Projects/tmk/.gitconfig
-[includeIf "gitdir:~/Projects/tmk/"]
-	path = ~/Projects/tmk/.gitconfig
+	path = ~/dev/tmk/.gitconfig
+[includeIf "gitdir:~/dev/tmk/"]
+	path = ~/dev/tmk/.gitconfig
 
 [fetch]
 	writeCommitGraph = true

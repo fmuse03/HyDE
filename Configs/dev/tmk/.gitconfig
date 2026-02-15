@@ -2,5 +2,5 @@
 	sshCommand = ssh -i ~/.ssh/id_ed25519.3 -o 'IdentitiesOnly yes'
 [user]
 	name = TMK04
-	email = floer.learner.01@gmail.com
+	email = 81667533+TMK04@users.noreply.github.com
 	signingKey = ~/.ssh/id_ed25519.4.pub

@@ -78,8 +78,8 @@ S|${HOME}/.config|lsd|lsd
 S|${HOME}/.config|fastfetch|fastfetch
 O|${HOME}/.local/share/fastfetch/presets|hyde|fastfetch
 S|${HOME}|.ssh|git
-O|${HOME}/Projects/tmk|.gitconfig|git
-O|${HOME}/Projects/soloer|.gitconfig|git
+O|${HOME}/dev/muse|.gitconfig|git
+O|${HOME}/dev/tmk|gitconfig|git
 O|${HOME}|.gitconfig|git
 
 O|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
