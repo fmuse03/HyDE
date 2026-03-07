@@ -1,4 +1,4 @@
-${cacheDir}/wallbash/helix.toml|${WALLBASH_SCRIPTS}/helix.sh
+${confDir}/helix/themes/hyde.toml
 # GENERAL ==============================
 warning = { fg = "#<wallbash_3xa8>" }
 error = { fg = "#<wallbash_4xa7>" }
