@@ -27,10 +27,10 @@ esac
 selected_wall="$1"
 [ -z "$selected_wall" ] && echo "No input wallpaper" && exit 1
 selected_wall="$(readlink -f "$selected_wall")"
-if ! swww query &> /dev/null; then
-    swww-daemon --format xrgb &
+if ! awww query &> /dev/null; then
+    awww-daemon --format xrgb &
     disown
-    swww query && swww restore
+    awww query && awww restore
 fi
 is_video=$(file --mime-type -b "$selected_wall" | grep -c '^video/')
 if [ "$is_video" -eq 1 ]; then
@@ -45,4 +45,4 @@ xtrans=$WALLPAPER_SWWW_TRANSITION_DEFAULT
 [ -z "$wallFramerate" ] && wallFramerate=60
 [ -z "$wallTransDuration" ] && wallTransDuration=0.4
 print_log -sec "wallpaper" -stat "apply" "$selected_wall"
-swww img "$(readlink -f "$selected_wall")" --transition-bezier .43,1.19,1,.4 --transition-type "$xtrans" --transition-duration "$wallTransDuration" --transition-fps "$wallFramerate" --invert-y --transition-pos "$(hyprctl cursorpos | grep -E '^[0-9]' || echo "0,0")" &
+awww img "$(readlink -f "$selected_wall")" --transition-bezier .43,1.19,1,.4 --transition-type "$xtrans" --transition-duration "$wallTransDuration" --transition-fps "$wallFramerate" --invert-y --transition-pos "$(hyprctl cursorpos | grep -E '^[0-9]' || echo "0,0")" &
