@@ -36,7 +36,7 @@ LESSHISTFILE="${LESSHISTFILE:-/tmp/less-hist}"
 PARALLEL_HOME="$XDG_CONFIG_HOME/parallel"
 SCREENRC="$XDG_CONFIG_HOME/screen/screenrc"
 TERMINFO="$XDG_DATA_HOME"/terminfo
-TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
+TERMINFO_DIRS="${XDG_DATA_HOME}/terminfo:/usr/share/terminfo:${TERMINFO_DIRS}"
 WGETRC="${XDG_CONFIG_HOME}/wgetrc"
 PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
 
