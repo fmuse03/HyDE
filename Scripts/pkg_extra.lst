@@ -11,7 +11,6 @@ ddcui                                                  # GUI to control brightne
 
 # --------------------------------------------------- // Hardware Monitors
 amdgpu_top
-btop
 glances
 radeontop
 
@@ -37,26 +36,11 @@ firefox
 ungoogled-chromium-bin
 code
 meld                                                 # git diff & merge tool
-lazygit
-scooter
-dragon-drop-git
-yazi
-neovim                                               # vim based text editor
-vim
-obs-studio
-obs-vkcapture
-lib32-obs-vkcapture
-obs-plugin-input-overlay-bin
 
 # --------------------------------------------------- // Shell
 # --------------------------------------------------- // zsh
 # oh-my-zsh-git|zsh                                      # Optional plugin manager for zsh
 # zsh-theme-powerlevel10k-git|zsh                        # Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
-asdf-vm|zsh
-bat|zsh                                                  # enhanced version of cat
-eza|zsh                                                  # file lister for zsh
-duf|zsh                                                  # prettier version of df for zsh
-zoxide|zsh
 
 # --------------------------------------------------- // Backends
 #electron                                              # electron backend

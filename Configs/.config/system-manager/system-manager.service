@@ -1,0 +1,13 @@
+[Unit]
+Description=Nix System Manager
+Documentation=man:system-manager https://system-manager.net/main
+Requires=nix-daemon.service
+
+[Service]
+Type=oneshot
+ExecStart=/nix/var/nix/profiles/system-manager-profiles/system-manager/bin/activate
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
